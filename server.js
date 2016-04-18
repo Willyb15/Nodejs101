@@ -39,7 +39,7 @@
 	response.end();
  	//resonse.writeHead(200);
 
- })
+ });
 
  server.listen(8000);
  console.log("Our Server is listening on Port 8000.");
