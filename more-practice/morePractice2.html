@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>More Practice Page 2</title>
+		<title>Node.js Running a Web Server Just loaded Another HTML file</title>
 	</head>
 	<body>
-		<h1>Practice More PART 2!!!!</h1>
-			<p>I told node to load this HTML page if <ip address> + 8500(port I told node to listen on)/2 is typed into url bar</p>
+		<h1>Node.js PART 2!!!!</h1>
+			<p>I told node to this SPECIFIC HTML file if <ip address> + 8500(port I told node to listen on)/2 is typed into url bar</p>
 			<p>Here we have http://54.183.157.77:8500/2</p>
+			<h2> THE "/2" IS IMPORTANT!!!</h2>
+			<h2>This Instructs the Web Server Which file to Load!</h2>
 			<p>Ran command "node server.js" file through terminal inside an Ubuntu Server setup through Amazon Web Services
 			<p>In the terminal gave command "sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8500"</p>
 			<p>This directs HTTP traffic coming in on port 80, to port 8500<p>
